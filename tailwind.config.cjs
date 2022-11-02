@@ -19,6 +19,7 @@ module.exports = {
         "light-red": "var(--light-red)",
         "very-dark-gray-blue": "var(--very-dark-gray-blue)",
         "very-dark-desaturated-blue": "var(--very-dark-desaturated-blue)",
+        bghero: "var(--background-gradient)",
       },
     },
   },

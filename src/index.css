@@ -20,6 +20,11 @@
     /* Background gradient - body: */
     --very-dark-gray-blue: hsl(237, 17%, 21%);
     --very-dark-desaturated-blue: hsl(237, 23%, 32%);
+    --background-gradient: linear-gradient(
+      120deg,
+      hsl(13, 100%, 72%),
+      hsl(353, 100%, 62%)
+    );
   }
 }
 
@@ -30,4 +35,26 @@ h4,
 h5,
 h6 {
   color: var(--very-dark-blue);
+}
+
+.showcase {
+  background-image: var(--background-gradient);
+  height: 400px;
+}
+.showcase .overlay {
+  background: url("./assets/bg-pattern-intro-desktop.svg") no-repeat
+    center/cover;
+  min-height: 400px;
+}
+
+.btn-light {
+  color: var(--light-red);
+  font-weight: bold;
+}
+
+@media (min-width: 1024px) {
+  .showcase,
+  .showcase .overlay {
+    height: 600px;
+  }
 }
