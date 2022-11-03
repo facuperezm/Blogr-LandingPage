@@ -4,16 +4,16 @@ export const footer = [
   {
     id: uuidv4(),
     title: "Product",
-    link: ["Overview", "Pricing", "Marketplace", "Features", "Integrations"],
+    links: ["Overview", "Pricing", "Marketplace", "Features", "Integrations"],
   },
   {
     id: uuidv4(),
     title: "Company",
-    link: ["About", "Team", "Blog", "Career"],
+    links: ["About", "Team", "Blog", "Career"],
   },
   {
     id: uuidv4(),
     title: "Connect",
-    link: ["Contact", "Newsletter", "LinkedIn"],
+    links: ["Contact", "Newsletter", "LinkedIn"],
   },
 ];

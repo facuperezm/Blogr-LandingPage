@@ -3,12 +3,12 @@
 const Showcase = () => {
   return (
     <>
-      <section className="showcase relative rounded-bl-[8%] -z-50">
+      <section className="font-overpass showcase relative rounded-bl-[10%] -z-50">
         {/* <div className="absolute top-0 -z-50 no-repeat center/cover">
           <img src={bg} alt="backgroun pattern" />
         </div> */}
         <div className="overlay px-5 flex flex-col items-center justify-center text-center">
-          <h1 className="font-bold text-4xl text-white mb-5 md:text-5xl xl:text-6xl 2xl:text-7xl">
+          <h1 className="font-medium mt-10 text-3xl text-white mb-5 md:text-5xl xl:text-6xl 2xl:text-7xl">
             A modern publishing platform
           </h1>
           <p className="text-white mb-5">
